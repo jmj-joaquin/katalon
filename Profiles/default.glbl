@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>[('Short') : 5, ('Medium') : 10, ('Long') : 20]</initValue>
+      <name>G_Timeout</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>[('OTP') : '123456', ('Password') : '10Password123#', ('ER_Uname') : 'iamsmart_auto11', ('EE_Uname') : 'iamsmart_auto501', ('ER_Email') : 'iamsmart_auto11@load.com', ('EE_Email\'') : 'iamsmart_auto501@load.com', ('ER_HKID') : 'H5350192', ('EE_HKID') : 'I648778A']</initValue>
+      <name>G_Creds</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>G_TestStep</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>[('EE-ER_Login') : 'https://portal-fnt.empf-cp.hk/login']</initValue>
+      <name>siteUrls</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>0</initValue>
+      <name>screenCounter</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>G_TestId</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>G_TestTimeStamp</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>G_TestStepId</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

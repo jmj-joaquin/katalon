@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="98.44" tests="5" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="5" failures="0" errors="0" time="98.44" skipped="0" timestamp="2023-05-15 14:17:21" hostname="82003771 - PCCWSPHL21L0368.corp.root" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\82003771\\Katalon Studio\\Security Automation\\Reports\\20230515_141709\\New Test Suite\\20230515_141710"/>
+         <property name="logFiles" value="C:\\Users\\82003771\\Katalon Studio\\Security Automation\\Reports\\20230515_141709\\New Test Suite\\20230515_141710\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="82003771 - PCCWSPHL21L0368.corp.root"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Chrome 113.0.0.0"/>
+         <property name="hostAddress" value="192.168.2.51"/>
+         <property name="sessionId" value="669b8780726a89a29ec07fa282ee4009"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/17.07.10.01 Enrolment Web Front-End/FS-UF-FE-ENR-MEM-001_A" time="65.299" classname="Test Cases/17.07.10.01 Enrolment Web Front-End/FS-UF-FE-ENR-MEM-001_A" status="PASSED">
+         <system-out><![CDATA[2023-05-15 14:17:22 - [TEST_CASE][PASSED] - Test Cases/17.07.10.01 Enrolment Web Front-End/FS-UF-FE-ENR-MEM-001_A: Test Cases/17.07.10.01 Enrolment Web Front-End/FS-UF-FE-ENR-MEM-001_A
+
+2023-05-15 14:17:22 - [TEST_STEP][PASSED] - Start listener action : setTestCaseDetails: null
+
+2023-05-15 14:17:22 - [TEST_STEP][PASSED] - testCase = testCaseContext.getTestCaseId(): null
+
+2023-05-15 14:17:22 - [TEST_STEP][PASSED] - testCaseStep = testCase.substring(lastIndexOf("/").toInteger() + 1): null
+
+2023-05-15 14:17:22 - [TEST_STEP][PASSED] - testCaseId = testCase.substring(indexOf("/").toInteger() + 1): null
+
+2023-05-15 14:17:22 - [TEST_STEP][PASSED] - G_TestStep = testCaseStep.split("-")[5]: null
+
+2023-05-15 14:17:22 - [TEST_STEP][PASSED] - G_TestId = testCaseId.split(" ")[0]: null
+
+2023-05-15 14:17:22 - [TEST_STEP][PASSED] - (internal.GlobalVariable.screenCounter++): null
+
+2023-05-15 14:17:22 - [TEST_STEP][PASSED] - CommonFunctions.browserStart(siteUrls["EE-ER_Login"]): Navigate to 'https://portal-fnt.empf-cp.hk/login' successfully
+
+2023-05-15 14:17:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-05-15 14:17:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-05-15 14:17:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-05-15 14:17:24 - [MESSAGE][PASSED] - Current window maximized
+
+2023-05-15 14:17:40 - [MESSAGE][PASSED] - Navigate to 'https://portal-fnt.empf-cp.hk/login' successfully
+
+2023-05-15 14:17:40 - [TEST_STEP][PASSED] - CommonFunctions.setTextAndVerify("Member", true, "Username", G_Creds["EE_Uname"]): Object '' has attribute 'value' with value 'iamsmart_auto501'
+
+2023-05-15 14:17:41 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2023-05-15 14:17:42 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: ''
+
+2023-05-15 14:17:42 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: ''
+
+2023-05-15 14:17:43 - [MESSAGE][PASSED] - Text 'iamsmart_auto501' is set on object ''
+
+2023-05-15 14:17:43 - [MESSAGE][PASSED] - Object '' has attribute 'value' with value 'iamsmart_auto501'
+
+2023-05-15 14:17:43 - [TEST_STEP][PASSED] - CommonFunctions.setTextAndVerify("Member", true, "Password", G_Creds["Password"]): Object '' has attribute 'value' with value '10Password123#'
+
+2023-05-15 14:17:44 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2023-05-15 14:17:44 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: ''
+
+2023-05-15 14:17:44 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: ''
+
+2023-05-15 14:17:45 - [MESSAGE][PASSED] - Text '10Password123#' is set on object ''
+
+2023-05-15 14:17:45 - [MESSAGE][PASSED] - Object '' has attribute 'value' with value '10Password123#'
+
+2023-05-15 14:17:45 - [TEST_STEP][PASSED] - CommonFunctions.click("Member", "___Button", "Login"): Object: '' is clicked on
+
+2023-05-15 14:17:46 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2023-05-15 14:17:46 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2023-05-15 14:17:46 - [TEST_STEP][PASSED] - CommonFunctions.setText("Member", false, "1", G_Creds["OTP"]): Text '123456' is set on object ''
+
+2023-05-15 14:17:47 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2023-05-15 14:17:48 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: ''
+
+2023-05-15 14:17:48 - [MESSAGE][PASSED] - Keys 'BACK_SPACE + ' sent to object: ''
+
+2023-05-15 14:17:49 - [MESSAGE][PASSED] - Text '123456' is set on object ''
+
+2023-05-15 14:17:49 - [TEST_STEP][PASSED] - if (waitForElementClickable(CommonFunctions.runtimeObj("Member", "___Button", "Got it"), G_Timeout["Medium"], OPTIONAL) == true): Web element with id: '' located by '(//*[text()='Got it'])[1]/../..' not found
+
+2023-05-15 14:18:26 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//*[text()='Got it'])[1]/../..'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-05-15 14:18:26 - [MESSAGE][WARNING] - Web element with id: '' located by '(//*[text()='Got it'])[1]/../..' not found
+
+2023-05-15 14:18:26 - [TEST_STEP][PASSED] - waitForElementClickable(CommonFunctions.runtimeObj("Member", "___Navbar item", "Enrol an MPF account"), G_Timeout["Medium"]): Object '' is clickable
+
+2023-05-15 14:18:27 - [MESSAGE][PASSED] - Object '' is clickable
+
+2023-05-15 14:18:27 - [TEST_STEP][PASSED] - CommonFunctions.click("Member", "___Navbar item", "Enrol an MPF account"): Object: '' is clicked on
+
+2023-05-15 14:18:27 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2023-05-15 14:18:27 - [MESSAGE][PASSED] - Object: '' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/17.07.10.01 Enrolment Web Front-End/FS-UF-FE-ENR-MEM-002_A" time="1.879" classname="Test Cases/17.07.10.01 Enrolment Web Front-End/FS-UF-FE-ENR-MEM-002_A" status="PASSED">
+         <system-out><![CDATA[2023-05-15 14:18:27 - [TEST_CASE][PASSED] - Test Cases/17.07.10.01 Enrolment Web Front-End/FS-UF-FE-ENR-MEM-002_A: Test Cases/17.07.10.01 Enrolment Web Front-End/FS-UF-FE-ENR-MEM-002_A
+
+2023-05-15 14:18:27 - [TEST_STEP][PASSED] - Start listener action : setTestCaseDetails: null
+
+2023-05-15 14:18:27 - [TEST_STEP][PASSED] - testCase = testCaseContext.getTestCaseId(): null
+
+2023-05-15 14:18:27 - [TEST_STEP][PASSED] - testCaseStep = testCase.substring(lastIndexOf("/").toInteger() + 1): null
+
+2023-05-15 14:18:27 - [TEST_STEP][PASSED] - testCaseId = testCase.substring(indexOf("/").toInteger() + 1): null
+
+2023-05-15 14:18:27 - [TEST_STEP][PASSED] - G_TestStep = testCaseStep.split("-")[5]: null
+
+2023-05-15 14:18:27 - [TEST_STEP][PASSED] - G_TestId = testCaseId.split(" ")[0]: null
+
+2023-05-15 14:18:27 - [TEST_STEP][PASSED] - (internal.GlobalVariable.screenCounter++): null
+
+2023-05-15 14:18:27 - [TEST_STEP][PASSED] - waitForElementClickable(CommonFunctions.runtimeObj("Member", "___Card (item)", "Tax Deductible Voluntary Contribution Account"), G_Timeout["Medium"]): Object '' is clickable
+
+2023-05-15 14:18:28 - [MESSAGE][PASSED] - Object '' is clickable
+
+2023-05-15 14:18:28 - [TEST_STEP][PASSED] - CommonFunctions.click("Member", "___Card (item)", "Tax Deductible Voluntary Contribution Account"): Object: '' is clicked on
+
+2023-05-15 14:18:29 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2023-05-15 14:18:29 - [MESSAGE][PASSED] - Object: '' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/17.07.10.01 Enrolment Web Front-End/FS-UF-FE-ENR-MEM-003_A" time="4.39" classname="Test Cases/17.07.10.01 Enrolment Web Front-End/FS-UF-FE-ENR-MEM-003_A" status="PASSED">
+         <system-out><![CDATA[2023-05-15 14:18:29 - [TEST_CASE][PASSED] - Test Cases/17.07.10.01 Enrolment Web Front-End/FS-UF-FE-ENR-MEM-003_A: Test Cases/17.07.10.01 Enrolment Web Front-End/FS-UF-FE-ENR-MEM-003_A
+
+2023-05-15 14:18:29 - [TEST_STEP][PASSED] - Start listener action : setTestCaseDetails: null
+
+2023-05-15 14:18:29 - [TEST_STEP][PASSED] - testCase = testCaseContext.getTestCaseId(): null
+
+2023-05-15 14:18:29 - [TEST_STEP][PASSED] - testCaseStep = testCase.substring(lastIndexOf("/").toInteger() + 1): null
+
+2023-05-15 14:18:29 - [TEST_STEP][PASSED] - testCaseId = testCase.substring(indexOf("/").toInteger() + 1): null
+
+2023-05-15 14:18:29 - [TEST_STEP][PASSED] - G_TestStep = testCaseStep.split("-")[5]: null
+
+2023-05-15 14:18:29 - [TEST_STEP][PASSED] - G_TestId = testCaseId.split(" ")[0]: null
+
+2023-05-15 14:18:29 - [TEST_STEP][PASSED] - (internal.GlobalVariable.screenCounter++): null
+
+2023-05-15 14:18:29 - [TEST_STEP][PASSED] - waitForElementClickable(CommonFunctions.runtimeObj("Member", "___Button", "Start Enrolment"), G_Timeout["Medium"]): Object '' is clickable
+
+2023-05-15 14:18:33 - [MESSAGE][PASSED] - Object '' is clickable
+
+2023-05-15 14:18:33 - [TEST_STEP][PASSED] - CommonFunctions.click("Member", "___Button", "Start Enrolment"): Object: '' is clicked on
+
+2023-05-15 14:18:33 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2023-05-15 14:18:33 - [MESSAGE][PASSED] - Object: '' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/17.07.10.01 Enrolment Web Front-End/FS-UF-FE-ENR-MEM-004_A" time="5.143" classname="Test Cases/17.07.10.01 Enrolment Web Front-End/FS-UF-FE-ENR-MEM-004_A" status="PASSED">
+         <system-out><![CDATA[2023-05-15 14:18:33 - [TEST_CASE][PASSED] - Test Cases/17.07.10.01 Enrolment Web Front-End/FS-UF-FE-ENR-MEM-004_A: Test Cases/17.07.10.01 Enrolment Web Front-End/FS-UF-FE-ENR-MEM-004_A
+
+2023-05-15 14:18:34 - [TEST_STEP][PASSED] - Start listener action : setTestCaseDetails: null
+
+2023-05-15 14:18:34 - [TEST_STEP][PASSED] - testCase = testCaseContext.getTestCaseId(): null
+
+2023-05-15 14:18:34 - [TEST_STEP][PASSED] - testCaseStep = testCase.substring(lastIndexOf("/").toInteger() + 1): null
+
+2023-05-15 14:18:34 - [TEST_STEP][PASSED] - testCaseId = testCase.substring(indexOf("/").toInteger() + 1): null
+
+2023-05-15 14:18:34 - [TEST_STEP][PASSED] - G_TestStep = testCaseStep.split("-")[5]: null
+
+2023-05-15 14:18:34 - [TEST_STEP][PASSED] - G_TestId = testCaseId.split(" ")[0]: null
+
+2023-05-15 14:18:34 - [TEST_STEP][PASSED] - (internal.GlobalVariable.screenCounter++): null
+
+2023-05-15 14:18:34 - [TEST_STEP][PASSED] - waitForElementClickable(CommonFunctions.runtimeObj("Member", "___Dropdown field w/ label", "Scheme Name"), G_Timeout["Medium"]): Object '' is clickable
+
+2023-05-15 14:18:36 - [MESSAGE][PASSED] - Object '' is clickable
+
+2023-05-15 14:18:36 - [TEST_STEP][PASSED] - CommonFunctions.setDropdownAndVerify("Member", true, "Scheme Name", "Sun Life Rainbow MPF Scheme"): Actual text and expected text of test object '' are matched.
+
+2023-05-15 14:18:36 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2023-05-15 14:18:37 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2023-05-15 14:18:37 - [MESSAGE][PASSED] - Text of object '' is: 'Sun Life Rainbow MPF Scheme'
+
+2023-05-15 14:18:37 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2023-05-15 14:18:38 - [MESSAGE][PASSED] - Actual text and expected text of test object '' are matched.
+
+2023-05-15 14:18:38 - [TEST_STEP][PASSED] - CommonFunctions.click("Member", "___Button", "Next"): Object: '' is clicked on
+
+2023-05-15 14:18:38 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2023-05-15 14:18:39 - [MESSAGE][PASSED] - Object: '' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/17.07.10.01 Enrolment Web Front-End/FS-UF-FE-ENR-MEM-005_A" time="21.277" classname="Test Cases/17.07.10.01 Enrolment Web Front-End/FS-UF-FE-ENR-MEM-005_A" status="PASSED">
+         <system-out><![CDATA[2023-05-15 14:18:39 - [TEST_CASE][PASSED] - Test Cases/17.07.10.01 Enrolment Web Front-End/FS-UF-FE-ENR-MEM-005_A: Test Cases/17.07.10.01 Enrolment Web Front-End/FS-UF-FE-ENR-MEM-005_A
+
+2023-05-15 14:18:39 - [TEST_STEP][PASSED] - Start listener action : setTestCaseDetails: null
+
+2023-05-15 14:18:39 - [TEST_STEP][PASSED] - testCase = testCaseContext.getTestCaseId(): null
+
+2023-05-15 14:18:39 - [TEST_STEP][PASSED] - testCaseStep = testCase.substring(lastIndexOf("/").toInteger() + 1): null
+
+2023-05-15 14:18:39 - [TEST_STEP][PASSED] - testCaseId = testCase.substring(indexOf("/").toInteger() + 1): null
+
+2023-05-15 14:18:39 - [TEST_STEP][PASSED] - G_TestStep = testCaseStep.split("-")[5]: null
+
+2023-05-15 14:18:39 - [TEST_STEP][PASSED] - G_TestId = testCaseId.split(" ")[0]: null
+
+2023-05-15 14:18:39 - [TEST_STEP][PASSED] - (internal.GlobalVariable.screenCounter++): null
+
+2023-05-15 14:18:39 - [TEST_STEP][PASSED] - waitForElementClickable(CommonFunctions.runtimeObj("Member", "___Card (item)", ""iAM Smart""), G_Timeout["Medium"]): Object '' is clickable
+
+2023-05-15 14:18:40 - [MESSAGE][PASSED] - Object '' is clickable
+
+2023-05-15 14:18:40 - [TEST_STEP][PASSED] - CommonFunctions.click("Member", "___Card (item)", ""iAM Smart""): Object: '' is clicked on
+
+2023-05-15 14:18:40 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2023-05-15 14:18:40 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2023-05-15 14:18:40 - [TEST_STEP][PASSED] - CommonFunctions.bypassiAMSmart(): Navigate to 'https://portal-fnt.empf-cp.hk/enrolment/member/tvc/selectIdentity?businessID=bypass&code=I648778A&state=3b92b95a-daf1-4a36-9e53-6fde3311fb47' successfully
+
+2023-05-15 14:18:45 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-05-15 14:18:45 - [MESSAGE][PASSED] - Current window's url is: 'https://apigw-isit.staging-eid.gov.hk/api/v1/auth/getQR?clientID=ad61f34d3630465e964150f65110c05d&responseType=code&redirectURI=https%3A%2F%2Fportal-fnt.empf-cp.hk%2Fenrolment%2Fmember%2Ftvc%2FselectIdentity&scope=eidapi_formFilling&source=PC_Browser&lang=en-US&state=3b92b95a-daf1-4a36-9e53-6fde3311fb47&brokerPage=true&ticketID=4d166fc4f1324c68949e831db79cd018'
+
+2023-05-15 14:19:00 - [MESSAGE][PASSED] - Navigate to 'https://portal-fnt.empf-cp.hk/enrolment/member/tvc/selectIdentity?businessID=bypass&code=I648778A&state=3b92b95a-daf1-4a36-9e53-6fde3311fb47' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-05-15 14:17:21 - [TEST_SUITE][PASSED] - New Test Suite: Test Cases/17.07.10.01 Enrolment Web Front-End/FS-UF-FE-ENR-MEM-005_A]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

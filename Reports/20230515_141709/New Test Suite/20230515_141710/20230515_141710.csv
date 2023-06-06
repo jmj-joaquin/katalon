@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,Chrome 113.0.0.0,,,2023-05-15 14:17:21,2023-05-15 14:19:00,1m - 38.440s,PASSED
+,,,,,,,
+Test Cases/17.07.10.01 Enrolment Web Front-End/FS-UF-FE-ENR-MEM-001_A,Chrome 113.0.0.0,,,2023-05-15 14:17:22,2023-05-15 14:18:27,1m - 5.299s,PASSED
+Start listener action : setTestCaseDetails,Chrome 113.0.0.0,,,2023-05-15 14:17:22,2023-05-15 14:17:22,0.019s,PASSED
+"CommonFunctions.browserStart(siteUrls[""EE-ER_Login""])",Chrome 113.0.0.0,,,2023-05-15 14:17:22,2023-05-15 14:17:40,18.385s,PASSED
+"CommonFunctions.setTextAndVerify(""Member"", true, ""Username"", G_Creds[""EE_Uname""])",Chrome 113.0.0.0,,,2023-05-15 14:17:40,2023-05-15 14:17:43,2.722s,PASSED
+"CommonFunctions.setTextAndVerify(""Member"", true, ""Password"", G_Creds[""Password""])",Chrome 113.0.0.0,,,2023-05-15 14:17:43,2023-05-15 14:17:45,2.051s,PASSED
+"CommonFunctions.click(""Member"", ""___Button"", ""Login"")",Chrome 113.0.0.0,,,2023-05-15 14:17:45,2023-05-15 14:17:46,0.674s,PASSED
+"CommonFunctions.setText(""Member"", false, ""1"", G_Creds[""OTP""])",Chrome 113.0.0.0,,,2023-05-15 14:17:46,2023-05-15 14:17:49,3.465s,PASSED
+"if (waitForElementClickable(CommonFunctions.runtimeObj(""Member"", ""___Button"", ""Got it""), G_Timeout[""Medium""], OPTIONAL) == true)",Chrome 113.0.0.0,,,2023-05-15 14:17:49,2023-05-15 14:18:26,36.871s,PASSED
+"waitForElementClickable(CommonFunctions.runtimeObj(""Member"", ""___Navbar item"", ""Enrol an MPF account""), G_Timeout[""Medium""])",Chrome 113.0.0.0,,,2023-05-15 14:18:26,2023-05-15 14:18:27,0.358s,PASSED
+"CommonFunctions.click(""Member"", ""___Navbar item"", ""Enrol an MPF account"")",Chrome 113.0.0.0,,,2023-05-15 14:18:27,2023-05-15 14:18:27,0.653s,PASSED
+,,,,,,,
+Test Cases/17.07.10.01 Enrolment Web Front-End/FS-UF-FE-ENR-MEM-002_A,Chrome 113.0.0.0,,,2023-05-15 14:18:27,2023-05-15 14:18:29,1.879s,PASSED
+Start listener action : setTestCaseDetails,Chrome 113.0.0.0,,,2023-05-15 14:18:27,2023-05-15 14:18:27,0.002s,PASSED
+"waitForElementClickable(CommonFunctions.runtimeObj(""Member"", ""___Card (item)"", ""Tax Deductible Voluntary Contribution Account""), G_Timeout[""Medium""])",Chrome 113.0.0.0,,,2023-05-15 14:18:27,2023-05-15 14:18:28,1.197s,PASSED
+"CommonFunctions.click(""Member"", ""___Card (item)"", ""Tax Deductible Voluntary Contribution Account"")",Chrome 113.0.0.0,,,2023-05-15 14:18:28,2023-05-15 14:18:29,0.629s,PASSED
+,,,,,,,
+Test Cases/17.07.10.01 Enrolment Web Front-End/FS-UF-FE-ENR-MEM-003_A,Chrome 113.0.0.0,,,2023-05-15 14:18:29,2023-05-15 14:18:33,4.390s,PASSED
+Start listener action : setTestCaseDetails,Chrome 113.0.0.0,,,2023-05-15 14:18:29,2023-05-15 14:18:29,0.001s,PASSED
+"waitForElementClickable(CommonFunctions.runtimeObj(""Member"", ""___Button"", ""Start Enrolment""), G_Timeout[""Medium""])",Chrome 113.0.0.0,,,2023-05-15 14:18:29,2023-05-15 14:18:33,3.725s,PASSED
+"CommonFunctions.click(""Member"", ""___Button"", ""Start Enrolment"")",Chrome 113.0.0.0,,,2023-05-15 14:18:33,2023-05-15 14:18:33,0.618s,PASSED
+,,,,,,,
+Test Cases/17.07.10.01 Enrolment Web Front-End/FS-UF-FE-ENR-MEM-004_A,Chrome 113.0.0.0,,,2023-05-15 14:18:33,2023-05-15 14:18:39,5.143s,PASSED
+Start listener action : setTestCaseDetails,Chrome 113.0.0.0,,,2023-05-15 14:18:34,2023-05-15 14:18:34,0.002s,PASSED
+"waitForElementClickable(CommonFunctions.runtimeObj(""Member"", ""___Dropdown field w/ label"", ""Scheme Name""), G_Timeout[""Medium""])",Chrome 113.0.0.0,,,2023-05-15 14:18:34,2023-05-15 14:18:36,2.291s,PASSED
+"CommonFunctions.setDropdownAndVerify(""Member"", true, ""Scheme Name"", ""Sun Life Rainbow MPF Scheme"")",Chrome 113.0.0.0,,,2023-05-15 14:18:36,2023-05-15 14:18:38,2.156s,PASSED
+"CommonFunctions.click(""Member"", ""___Button"", ""Next"")",Chrome 113.0.0.0,,,2023-05-15 14:18:38,2023-05-15 14:18:39,0.651s,PASSED
+,,,,,,,
+Test Cases/17.07.10.01 Enrolment Web Front-End/FS-UF-FE-ENR-MEM-005_A,Chrome 113.0.0.0,,,2023-05-15 14:18:39,2023-05-15 14:19:00,21.277s,PASSED
+Start listener action : setTestCaseDetails,Chrome 113.0.0.0,,,2023-05-15 14:18:39,2023-05-15 14:18:39,0.001s,PASSED
+"waitForElementClickable(CommonFunctions.runtimeObj(""Member"", ""___Card (item)"", """"iAM Smart""""), G_Timeout[""Medium""])",Chrome 113.0.0.0,,,2023-05-15 14:18:39,2023-05-15 14:18:40,0.986s,PASSED
+"CommonFunctions.click(""Member"", ""___Card (item)"", """"iAM Smart"""")",Chrome 113.0.0.0,,,2023-05-15 14:18:40,2023-05-15 14:18:40,0.625s,PASSED
+CommonFunctions.bypassiAMSmart(),Chrome 113.0.0.0,,,2023-05-15 14:18:40,2023-05-15 14:19:00,19.624s,PASSED
