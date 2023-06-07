@@ -49,6 +49,16 @@ public class GlobalVariable {
      */
     public static Object G_TestStepId
      
+    /**
+     * <p></p>
+     */
+    public static Object G_retryCount
+     
+    /**
+     * <p></p>
+     */
+    public static Object timeOut
+     
 
     static {
         try {
@@ -64,6 +74,8 @@ public class GlobalVariable {
             G_TestId = selectedVariables['G_TestId']
             G_TestTimeStamp = selectedVariables['G_TestTimeStamp']
             G_TestStepId = selectedVariables['G_TestStepId']
+            G_retryCount = selectedVariables['G_retryCount']
+            timeOut = selectedVariables['timeOut']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)

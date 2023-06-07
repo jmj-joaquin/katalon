@@ -13,6 +13,7 @@ class NewTestListener {
 	 * Executes before every test case starts.
 	 * @param testCaseContext related information of the executed test case.
 	 */
+	/*
 	@BeforeTestCase
 	def setTestCaseDetails(TestCaseContext testCaseContext) {
 		String testCase = testCaseContext.getTestCaseId()
@@ -30,4 +31,5 @@ class NewTestListener {
 		String timestamp = new SimpleDateFormat("yyyMMdd_HHmmss").format(new Timestamp(System.currentTimeMillis()));
 		GlobalVariable.G_TestTimeStamp = timestamp
 	}
+	*/
 }

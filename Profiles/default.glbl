@@ -21,7 +21,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>[('EE-ER_Login') : 'https://portal-fnt.empf-cp.hk/login']</initValue>
+      <initValue>[('Promotexter_ContactUs') : 'https://promotexter.com/contact-us/', ('Promotexter') : 'https://promotexter.com']</initValue>
       <name>siteUrls</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -43,5 +43,15 @@
       <description></description>
       <initValue>''</initValue>
       <name>G_TestStepId</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>3</initValue>
+      <name>G_retryCount</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>[('short') : 5, ('medium') : 10, ('long') : 20]</initValue>
+      <name>timeOut</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
